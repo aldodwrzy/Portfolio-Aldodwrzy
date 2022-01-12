@@ -47,7 +47,7 @@ btnChangeTheme.addEventListener("click", function(event) {
     if (html.dataset.colorMode === "light") {
         html.dataset.colorMode = "dark";
         btnChangeTheme.className = "btnChangeTheme btn btn-outline-light btn-sm border-0 ml-3"
-        btnChangeThemeI.className = "fas fa-moon";
+        btnChangeThemeI.className = "fas fa-sun";
     } else {
         html.dataset.colorMode = "light";
         btnChangeTheme.className = "btnChangeTheme btn btn-outline-dark btn-sm border-0 ml-3"
@@ -62,7 +62,7 @@ if (hours > 4 && hours < 16) {
 } else {
     html.dataset.colorMode = "dark";
     btnChangeTheme.className = "btnChangeTheme btn btn-outline-light btn-sm border-0 ml-3"
-    btnChangeThemeI.className = "fas fa-moon";
+    btnChangeThemeI.className = "fas fa-sun";
 }
 
 // Nav menu
