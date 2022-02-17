@@ -17,11 +17,11 @@ You're sections headers will be used to reference location of destination.
 - Skill
 - History
 
-#### Technologies
+## Technologies
 
 - Visual Studio Code
-- HTML
-- CSS (Bootstrap 4)
+- HTML/CSS
+- UI Framework = Bootstrap 4
 
 ## Developer
 
