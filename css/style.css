@@ -461,13 +461,14 @@ footer .border-top {
   }
   
   .typing-demo {
-    width: 22ch;
+    width: 15.5ch;
     animation: typing 5s steps(22), blink .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid;
     font-family: monospace;
     font-size: 2em;
+    text-align: center;
   }
   
   @keyframes typing {
@@ -482,4 +483,10 @@ footer .border-top {
     }
   }
 
+  @media screen and (max-width:568px) {
+    .typing-demo {
+        /* width: 100%; */
+        margin-left: 50px;
+      }
+  }
 /* End of responsive design */
