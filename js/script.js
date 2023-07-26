@@ -66,6 +66,6 @@ if (hours > 4 && hours < 16) {
 }
 
 // Nav menu
-function openNavMenu(x) {
+function openNavMenu(x){
     x.classList.toggle("change");
 }
